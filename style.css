@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background-color: red;
+}
+
+.sessao1 {
+    text-align: center;
+    background-color: black;
+}
+
+.sessao1 img {
+    width: 50em;
+    height: 20em;
+}
+
+.sessao2 {
+    padding: 20px;
+}
+
+.sessao3 {
+    padding: 20px;
+}
