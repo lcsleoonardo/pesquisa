@@ -1,28 +1,90 @@
 * {
     padding: 0;
     margin: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-    padding: 40px;
+    padding: 60px;
     text-align: center;
-    background-color: red;
+    background-color: grey;
 }
 
-.sessao1 {
-    text-align: center;
-    background-color: black;
+#sessao1 {
+    background-image: url(https://blog.saraivaeducacao.com.br/wp-content/uploads/2022/03/biblioteca-universitaria.jpg);
+    padding: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.sessao1 img {
+#sessao2 {
+    text-align: center;
+}
+
+#sessao1 img {
     width: 50em;
     height: 20em;
 }
 
-.sessao2 {
-    padding: 20px;
+#sessao2 {
+    padding: 50px;
+    background-image: url(https://d896dlx7jq9ox.cloudfront.net/private/mobile/vrchyzq6JAVASCRIPT_1705438000.png);
+    background-attachment: fixed;
 }
 
-.sessao3 {
+#sessao3 {
+    background-color: blue;
+}
+
+#sessao4 {
+    background-color: aqua;
+}
+
+#sessao5 {
+    background-color: aquamarine;
+}
+
+#sessao6 {
+    background-color: gray;
+}
+
+#sessao7 {
+    background-color: rgb(204, 60, 84);
+}
+
+.sessoes {
     padding: 20px;
+    display: flex;
+    height: 10rem;
+}
+
+.sessoes img {
+    width: 10rem;
+}
+
+.div-espaco {
+    margin-left: 50px;
+    text-align: center;
+}
+
+#rodape {
+    padding: 100px;
+    background: linear-gradient(9deg, rgba(51,84,91,1) 8%, rgba(131,152,159,1) 36%, rgba(195,201,208,1) 57%);
+}
+
+#rodape a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+#rodape a:hover {
+    color: white;
+    transition: 2s;
+}
+
+#rodape ul {
+    display: flex;
+    justify-content: center;
 }
